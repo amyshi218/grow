@@ -29,8 +29,6 @@ export default function App() {
       .catch((err) => console.log('err getting in client', err))
   }
 
-  console.log('data', data)
-
   useEffect(() => {
     getData()
   }, [])
@@ -56,8 +54,6 @@ export default function App() {
       return <Person data={data} setPage={setPage} planetIdx={planetIdx} personIdx={personIdx} />
     }
   }
-
-
 
   return (
     <div style={{ textAlign: 'center' }}>
