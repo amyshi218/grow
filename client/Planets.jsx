@@ -35,9 +35,9 @@ export default function Planets({ currentPlanets, data, setPage, setPlanetIdx, s
         <table className="table table-hover table-dark" id="planets-table" >
           <thead>
             <tr>
-              <th>Planet</th>
-              <th>Population</th>
-              <th>Residents</th>
+              <th style={{ color: '#FFE81F' }}>Planet</th>
+              <th style={{ color: '#FFE81F' }}>Population</th>
+              <th style={{ color: '#FFE81F' }}>Residents</th>
             </tr>
           </thead>
           <tbody>

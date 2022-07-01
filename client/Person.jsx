@@ -33,7 +33,7 @@ export default function Person({ data, setPage, planetIdx, personIdx }) {
         <table className="table table-dark" id="person-table" style={{ marginBottom: 50 }} >
           <thead>
             <tr>
-              <th>{data[planetIdx].name} Resident Info</th>
+              <th style={{ color: '#FFE81F' }}>{data[planetIdx].name} Resident Info</th>
             </tr>
           </thead>
           {info && (
@@ -43,63 +43,63 @@ export default function Person({ data, setPage, planetIdx, personIdx }) {
                 <td>{info.name}</td>
               </tr>
               <tr>
-                <th scope="row">Height</th>
+                <th scope="row" style={{ color: '#FF00FF' }}>Height</th>
                 <td>{info.height}</td>
               </tr>
               <tr>
-                <th scope="row">Mass</th>
+                <th scope="row" style={{ color: '#15f2fd' }}>Mass</th>
                 <td>{info.mass}</td>
               </tr>
               <tr>
-                <th scope="row">Hair Color</th>
+                <th scope="row" style={{ color: '#2FF924' }}>Hair Color</th>
                 <td>{info.hair_color}</td>
               </tr>
               <tr>
-                <th scope="row">Skin Color</th>
+                <th scope="row" style={{ color: '#FFF01F' }}>Skin Color</th>
                 <td>{info.skin_color}</td>
               </tr>
               <tr>
-                <th scope="row">Eye Color</th>
+                <th scope="row" style={{ color: '#EB212E' }}>Eye Color</th>
                 <td>{info.eye_color}</td>
               </tr>
               <tr>
-                <th scope="row">Birth Year</th>
+                <th scope="row" style={{ color: '#FF00FF' }}>Birth Year</th>
                 <td>{info.birth_year}</td>
               </tr>
               <tr>
-                <th scope="row">Gender</th>
+                <th scope="row" style={{ color: '#15f2fd' }}>Gender</th>
                 <td>{info.gender}</td>
               </tr>
               <tr>
-                <th scope="row">Home World</th>
+                <th scope="row" style={{ color: '#2FF924' }}>Home World</th>
                 <td>{info.homeworld}</td>
               </tr>
               <tr>
-                <th scope="row">Films</th>
+                <th scope="row" style={{ color: '#FFF01F' }}>Films</th>
                 <td>{info.films.map((film, idx) => (<div key={idx}>{film}</div>))}</td>
               </tr>
               <tr>
-                <th scope="row">Species</th>
+                <th scope="row" style={{ color: '#EB212E' }}>Species</th>
                 <td>{info.species.map((spec, idx) => (<div key={idx}>{spec}</div>))}</td>
               </tr>
               <tr>
-                <th scope="row">Vehicles</th>
+                <th scope="row" style={{ color: '#FF00FF' }}>Vehicles</th>
                 <td>{info.vehicles.map((vehicle, idx) => (<div key={idx}>{vehicle}</div>))}</td>
               </tr>
               <tr>
-                <th scope="row">Starships</th>
+                <th scope="row" style={{ color: '#15f2fd' }}>Starships</th>
                 <td>{info.starships.map((starship, idx) => (<div key={idx}>{starship}</div>))}</td>
               </tr>
               <tr>
-                <th scope="row">Created</th>
+                <th scope="row" style={{ color: '#2FF924' }}>Created</th>
                 <td>{formatDate(info.created)}</td>
               </tr>
               <tr>
-                <th scope="row">Edited</th>
+                <th scope="row" style={{ color: '#FFF01F' }}>Edited</th>
                 <td>{formatDate(info.edited)}</td>
               </tr>
               <tr>
-                <th scope="row">URL</th>
+                <th scope="row" style={{ color: '#EB212E' }}>URL</th>
                 <td>{info.url}</td>
               </tr>
             </tbody>

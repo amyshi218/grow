@@ -21,12 +21,12 @@ export default function Residents({ data, setPage, planetIdx, setPersonIdx, setF
 
   return (
     <div style={{ marginBottom: 50 }}>
-      <button type="button" className="btn btn-outline-success" style={{ margin: 20, width: 100 }} onClick={() => { setPage('planets'); setFilteredStatus(false) }}>Back</button>
+      <button type="button" className="btn btn-outline-success" style={{ margin: 20, width: 100 }} onClick={() => { setPage('planets'); setFilteredStatus(false); }}>Back</button>
       <div className="table-container" style={{ width: '80%', margin: '50px auto' }}>
         <table className="table table-hover table-dark" id="residents-table"  >
           <thead>
             <tr>
-              <th>Residents</th>
+              <th style={{ color: '#FFE81F' }}>Residents</th>
             </tr>
           </thead>
           <tbody>

@@ -8,6 +8,10 @@ $ npm install
 $ npm run start
 $ npm run watch
 ```
+####  Photos
+![](https://imgur.com/kEQD9im.gif)
+![](https://imgur.com/0rr7FkI.gif)
+![](https://imgur.com/BDBsadr.gif)
 
 ### Technologies
 ```
