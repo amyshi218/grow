@@ -2,6 +2,7 @@
 
 ### Goal
 Create a webapp displaying Star Wars planets, planet residents and resident info. Upon entering the page, a series of get requests will be sent to the Star Wars Api and saved in state.
+A search bar is present on the Planets page. After typing in 3 letters, the list will filter to show matching results.
 ###  Installation and Setup🚀
 ```
 $ npm install
